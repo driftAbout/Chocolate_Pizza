@@ -1,0 +1,8 @@
+/*style some stuff*/
+body {
+  background:#fff;
+}
+header, main, footer{
+  width:960;
+  margin:0 auto;
+}

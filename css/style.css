@@ -1,0 +1,61 @@
+/*style some stuff*/
+body {
+  background:#fff;
+}
+header, main, footer{
+  width:960px;
+  margin:0 auto;
+}
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 40px;
+  margin: 0;
+}
+h2 {
+  margin-top: 140px;
+  margin-bottom: 35px;
+  top: 45px;
+  left: 330px;
+  position: fixed;
+  z-index: -1;
+}
+#motto {
+  color: #a7a7a7;
+  margin-left: 5px;
+  margin-top: -25px;
+  text-transform: uppercase;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 15px;
+  z-index: -1;
+}
+#social-media {
+  width: 300px;
+  height: 200px;
+  position: fixed;
+  left: 690px;
+  top: 5px;
+  margin-top: 60px;
+  margin-left: 350px;
+}
+#logo {
+  position: fixed;
+  top: 50px;
+  left: 230px;
+}
+#dl {
+  position: fixed;
+  left: 200px;
+  top: 125px;
+  z-index: -1;
+}
+#delicious {
+  display: inline-block;
+  margin: 10px;
+  border: 10px;
+  padding: 10px;
+}
+#choco-pizza {
+  position: fixed;
+  top: 250px;
+  left: 331px;
+}

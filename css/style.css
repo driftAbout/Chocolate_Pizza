@@ -1,0 +1,90 @@
+body {
+  background:#fff;
+}
+header, main, footer{
+  width:900px;
+  margin:0 auto;
+}
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 40px;
+  margin: 0;
+  margin-left: 65px;
+  margin-top: 20px;
+}
+h2 {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 1px;
+  height: 55px;
+  left: 0px;
+  right: 30px;
+  top: 60px;
+  margin-top: 80px;
+}
+#motto {
+  text-transform: uppercase;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 15px;
+  margin-left: 65px;
+  margin-top: -9px;
+  height: 55px;
+}
+#logo-top {
+  position: absolute;
+  left: 315px;
+  height: 55px;
+  top: 32px;
+}
+#date {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: darkgrey;
+  margin-top: -35px;
+  margin-left: 3px;
+}
+#print img {
+  width: 12px;
+  height: 12px;
+  margin-left: -55px;
+  display: inline-block;
+}
+#print {
+  font-size: 14px;
+  color: darkgray;
+  margin-left: 855px;
+  margin-top: -20px;
+}
+#social-media {
+  position: absolute;
+  right: 315px;
+  top: 47px;
+}
+#dl { /*dashed line*/
+  width: 900px;
+  position: absolute;
+  bottom: 580px;
+  right: 310px;
+}
+#choco-pizza {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+#first {
+  text-indent: 30px;
+  font-size: 19px;
+  margin-bottom: 40px;
+  color: dimgray;
+}
+#second {
+  text-indent: 30px;
+  font-size: 19px;
+  margin-bottom: 40px;
+  color: dimgray;
+}
+#third {
+  text-indent: 30px;
+  font-size: 19px;
+  margin-bottom: 40px;
+  color: dimgray;
+}

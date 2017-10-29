@@ -28,8 +28,7 @@ h2 {
   left: 0px;
   right: 30px;
   top: 60px;
-  margin-top: 80px;
-  margin-bottom: 14px;
+  margin-top: 60px;
 }
 #motto {
   text-transform: uppercase;
@@ -37,7 +36,7 @@ h2 {
   font-size: 15px;
   margin-left: 65px;
   margin-top: -15px;
-  height: 55px;
+  height: 45px;
 }
 /*#logo-top {
   position: absolute;
@@ -48,7 +47,7 @@ h2 {
 #date {
   font-family: 'Saira Extra Condensed', sans-serif;
   color: darkgrey;
-  margin-top: -35px;
+  margin-top: -10px;
   margin-left: 3px;
 }
 #print img {
@@ -105,12 +104,13 @@ p{
 }
 
 .recipe{
-  width: 960px;
+  width: 900px;
   margin: 0 auto;
   height: 324px;
   background-image: url("../images/list-bg.png");
   background-position: center;
-  background-size: 960px 324px;
+  background-size: 900px 324px;
+  margin-bottom: 40px;
 }
 
 .recipe ul{
@@ -177,30 +177,14 @@ padding-left: 26px;
    opacity: 1;
  }
 
- .dots{
-   width: 960px;
-   margin: 20px auto;
- }
-
- .p_dots{
-   height: 1px;
-   width: 100%;
-   border-top: 1px dotted #999;
-   opacity: .5;
- }
-
- .p_dots:nth-child(even){
-   margin-left:1 px;
- }
-
  .bio{
    color: #777;
-   width: 960px;
+   width: 900px;
    margin: 20px 0;
    margin-bottom:4 0px;
  }
 
- .bio h2{
+ .bio_name{
    color: #555;
    margin: 15px;
    font-size: 24px;
@@ -208,14 +192,17 @@ padding-left: 26px;
  }
 
  .bio p{
-   font-size: 18px;
-   line-height: 20px;
+   font-size: 20px;
+   line-height: 26px;
+   margin-bottom: 75px;
+   width: 680px;
  }
 
  .bio img{
    margin-right: 20px;
    float: left;
    margin_top: 10px;
+   margin: 10px 20px 0 0;
  }
  .bio button{
    border-style: none;
@@ -230,7 +217,7 @@ padding-left: 26px;
  }
 
  footer {
-   width: 960px;
+   width: 900px;
    margin: 30px auto;
    text-align: center;
  }
@@ -244,12 +231,6 @@ padding-left: 26px;
    width: 30px;
  }
 
-footer .p_dots{
-  width: 450px;
-  float: left;
-  margin-top: 15px;
-}
-
 .clearFix {
   clear:both;
 }
@@ -262,7 +243,19 @@ footer .p_dots{
 }
 
 .pattern {
-  height:25px;
-  repeating-linear-gradient(#777, #777 .75px, #FFF .75px, #FFF 1px), repeating-linear-gradient(45deg, #555, #555 .75px, #FFF .75px, #FFF 3.15px)
+  background: repeating-linear-gradient(#777, #777 .75px, #FFF .75px, #FFF 1px), repeating-linear-gradient(45deg, #555, #555 .75px, #FFF .75px, #FFF 3.15px);
   background-blend-mode: screen;
+}
+
+.thick {
+  height: 15px;
+}
+.thin {
+  height: 1px;
+}
+
+footer .thin{
+  width: 420px;
+  float: left;
+  margin-top: 15px;
 }

@@ -75,21 +75,27 @@ h2 {
 }
 #first {
   text-indent: 30px;
-  font-size: 19px;
+  /*font-size: 19px;*/
+  font-size: 1.2em;
+  line-height: 1.2em;
   margin-bottom: 40px;
-  color: dimgray;
+  /*color: dimgray;*/
 }
 #second {
   text-indent: 30px;
-  font-size: 19px;
+  /*font-size: 19px;*/
+  font-size: 1.2em;
+  line-height: 1.2em;
   margin-bottom: 40px;
-  color: dimgray;
+  /*color: dimgray;*/
 }
 #third {
   text-indent: 30px;
-  font-size: 19px;
+  /*font-size: 19px;*/
+  font-size: 1.2em;
+  line-height: 1.2em;
   margin-bottom: 40px;
-  color: dimgray;
+  /*color: dimgray;*/
 }
 
 p{
@@ -192,8 +198,10 @@ padding-left: 26px;
  }
 
  .bio p{
-   font-size: 20px;
-   line-height: 26px;
+   /*font-size: 20px;
+   line-height: 26px;*/
+   font-size: 1.2em;
+   line-height: 1.2em;
    margin-bottom: 75px;
    width: 680px;
  }
